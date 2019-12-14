@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="css/style.css">
+            <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    </head>
+    <body>
+        <ul>
+            <li><a href="./home.html">home</a></li>
+            <li><a href="./courses.html">courses</a></li>
+            <li><a href="./contact.html">contact</a></li>
+        </ul>
+        <p >
+              
+                <img src="coursess.jpg">
+                <div class="courses">courses</div>
+           
+            <center>
+            <div class="b">
+         <div class="course1">
+            <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png" > -->
+            <button><a href="#ex1" rel="modal:open">viewmore</a></button> </div>
+            <div class="course2">
+            <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png"> -->
+            <button><a href="#ex1" rel="modal:open">viewmore</a></button></div>
+            <div class="course3">
+            <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png">  -->
+            <button><a href="#ex1" rel="modal:open">viewmore</a></button></div>
+        </div>
+  <div class="b">
+      <div class="course4">
+    <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel5.png">   -->
+    <button><a href="#ex1" rel="modal:open">viewmore</a></button></div>
+    <div class="course5">
+    <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel4.png"> -->
+   
+    <button><a href="#ex1" rel="modal:open">viewmore</a></button></div>
+    <div class="course6">
+    <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel8.png"> -->
+    <button><a href="#ex1" rel="modal:open">viewmore</a></button></div>
+
+</div>
+    <div class="b">
+            <div class="course7">
+    <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel6.png"> -->
+    <button><a href="#ex1" rel="modal:open">viewmore</a></button></div>
+    <div class="course8">
+    <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel7.png"> -->
+    
+    <button><a href="#ex1" rel="modal:open">viewmore</a></button></div>
+    <div class="course9">
+    <!-- <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel3.png"> -->
+    <button><a href="#ex1" rel="modal:open">viewmore</a></button></div>
+    </div>
+    
+    <div id="ex1" class="modal">
+            <p>Thanks for clicking. That felt good.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+          
+          <!-- Link to open the modal -->
+          <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+<div id="ex1" class="modal">
+    <p>Thanks for clicking. That felt good.</p>
+    <a href="#" rel="modal:close">Close</a>
+  </div>
+           
+            <h4>feedback</h4>
+            <p >
+                <button onclick="test()">B</button>
+                <button onclick="changeritalic()">I</button>
+                <button onclick="changerInder()">Underline</button>
+                <select id="txt2" onChange ="taille()">
+                    <option value="20px">20 px</option>
+                    <option value="30px ">30 px</option>
+                    <option value="40px">40 px</option>
+                </select>
+                <select id="txt3" onChange= "famille()">
+                    <option value="arial" >Arial</option>
+                    <option  value="verdana" >Verdana</option>
+                    <option  value="geneva">Geneva</option>
+                </select>
+
+            </p>
+            <p>
+                <textarea id="txt" cols="30"rows="8 "> </textarea>
+            </p>
+        </center>
+        </p>
+    </body>
+   <script src="js/main.js">
+</script>
+</html>
